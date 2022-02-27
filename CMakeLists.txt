@@ -17,9 +17,3 @@ target_include_directories(${PROJECT_NAME} PUBLIC include)
 target_link_directories(${PROJECT_NAME} PRIVATE source)
 
 target_link_libraries(${PROJECT_NAME} ssh-library)
-
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
